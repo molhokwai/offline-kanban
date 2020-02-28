@@ -95,3 +95,56 @@ a {
     stroke: #ffa700;
   }
 }
+
+.logo_container___24wBE+div {
+    background: darkcyan;
+    padding: 0.3em 0.6em;
+    color: white;
+}
+
+.list___393qT {
+    overflow-y: auto;
+    min-height: 40em;
+}
+
+.list_header___3BaTf {
+	border: 1px solid grey;
+    padding: 0 .6em;
+    color: white;
+}
+
+div.lists_wrapper___16cjE div .list___393qT .list_header___3BaTf,
+.list_header___3BaTf.todo {
+    background: darkorange;
+}
+
+div.lists_wrapper___16cjE div+div .list___393qT .list_header___3BaTf,
+.list_header___3BaTf.doing {
+    background: blue;
+}
+
+div.lists_wrapper___16cjE div+div+div .list___393qT .list_header___3BaTf,
+.list_header___3BaTf.done {
+    background: #239a23;
+}
+
+div.lists_wrapper___16cjE div+div+div+div .list___393qT .list_header___3BaTf,
+.list_header___3BaTf.done {
+    background: darkred;
+}
+
+
+.list_header___3BaTf div+div {
+    font-size: .6em;
+    text-decoration: overline;
+}
+
+.list_cards_section___Q1gEt {
+    background: #dfe7e9;
+    padding: .6em;
+    border: 1px solid maroon;
+}
+
+.container___1k4Sx {
+    background: grey;
+}
